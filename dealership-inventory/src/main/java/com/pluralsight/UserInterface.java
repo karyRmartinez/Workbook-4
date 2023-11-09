@@ -212,18 +212,19 @@ public class UserInterface {
 
     }
 
+    //Vin is having issues being called
     private void processRemoveVehicleRequest() {
-        System.out.println("Enter VIN of the vehicle to remove:");
-        int vin = scanner.nextInt();
-        scanner.nextLine();
-
-        Vehicle removedVehicle = dealership.removeVehicle(vin);
-
-        if (removedVehicle != null) {
-            System.out.println("Vehicle with VIN " + vin + " has been removed.");
-        } else {
-            System.out.println("No vehicle found with VIN " + vin + ".");
-        }
+//        System.out.println("Enter VIN of the vehicle to remove:");
+//        int vin = scanner.nextInt();
+//        scanner.nextLine();
+//
+//        Vehicle removedVehicle = dealership.removeVehicle(vin);
+//
+//        if (removedVehicle != null) {
+//            System.out.println("Vehicle with VIN " + vin + " has been removed.");
+//        } else {
+//            System.out.println("No vehicle found with VIN " + vin + ".");
+//        }
 
     }
 
